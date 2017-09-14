@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "59243969177",
+    "firebase_url": "https://addnoti.firebaseio.com",
+    "project_id": "addnoti",
+    "storage_bucket": "addnoti.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:59243969177:android:e536acab1f5f1a77",
+        "android_client_info": {
+          "package_name": "com.root.firebasepractice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "59243969177-4n9t2hd81538eaqc4bn8svn8q5gpslap.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4ABYGONDLQfqE746RM_VWSUH2AN2Xr8s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
