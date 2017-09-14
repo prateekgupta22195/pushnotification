@@ -8,8 +8,8 @@ import android.util.Log;
 
 import com.google.firebase.messaging.FirebaseMessagingService;
 import com.google.firebase.messaging.RemoteMessage;
-import com.root.firebasepractice.ChatActivity;
-import com.root.firebasepractice.Config;
+import com.root.firebasepractice.MainActivity;
+import com.root.firebasepractice.config.Config;
 import com.root.firebasepractice.utils.NotificationUtils;
 
 import org.json.JSONException;
@@ -98,7 +98,7 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
                 notificationUtils.playNotificationSound();
             } else {
                 // app is in background, show the notification in notification tray
-                Intent resultIntent = new Intent(getApplicationContext(), ChatActivity.class);
+                Intent resultIntent = new Intent(getApplicationContext(), MainActivity.class);
                 resultIntent.putExtra("message", message);
 
                 // check for image attachment

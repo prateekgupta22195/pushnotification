@@ -7,7 +7,7 @@ import android.util.Log;
 
 import com.google.firebase.iid.FirebaseInstanceId;
 import com.google.firebase.iid.FirebaseInstanceIdService;
-import com.root.firebasepractice.Config;
+import com.root.firebasepractice.config.Config;
 
 /**
  * Created by root on 14/9/17.

@@ -7,7 +7,6 @@ import android.app.ActivityManager;
 import android.app.Notification;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
-import android.content.ComponentName;
 import android.content.ContentResolver;
 import android.content.Context;
 import android.content.Intent;
@@ -22,7 +21,7 @@ import android.text.Html;
 import android.text.TextUtils;
 import android.util.Patterns;
 
-import com.root.firebasepractice.Config;
+import com.root.firebasepractice.config.Config;
 import com.root.firebasepractice.R;
 
 import java.io.IOException;
